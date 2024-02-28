@@ -18,16 +18,14 @@ header {
 }
 
 .header-logo {
-    height: 50%;
-    padding: 5px;
+    padding-bottom: 20px;
 }
 
 .header-logo img {
-    object-fit: cover;
+    height: 100%;
 }
 
 .header-info {
-    height: 50%;
     color: darkgreen;
 }
 
@@ -45,6 +43,7 @@ h1 {
     color: rgb(98, 3, 3);
     font-weight: 700;
     text-align: center;
+    margin-top: 40px;
 }
 
 .focaccia {
@@ -63,7 +62,8 @@ h3 {
 }
 
 hr {
-    border-color: lightblue;
+    border-color: rgb(163, 232, 255);
+    
 }
 
 figcaption {
@@ -75,6 +75,8 @@ figcaption {
 .under-figcaption {
     border-left: 1px solid lightsalmon;
     padding-left: 10px;
+    margin-bottom: 50px;
+    margin-top: 35;
 }
 
 .under-figcaption span {
@@ -82,6 +84,19 @@ figcaption {
     color: orange;
 }
 
+a {
+    color: rgb(0, 131, 174);
+}
+
 a:visited {
     color: rgb(0, 131, 174);
+}
+
+h2 {
+    font-weight: 700;
+}
+
+
+ul {
+    line-height: 2.5em;
 }
